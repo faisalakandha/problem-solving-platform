@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <link rel='icon' href='/favicon.png' />
       <meta name='description' content='Web application that contains coding problems and their solutions' />
     </Head>
-
+    <Component {...pageProps}/>
     </>
   );
 }
